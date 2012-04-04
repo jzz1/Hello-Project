@@ -1,0 +1,72 @@
+<html>
+
+<head>
+<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type" />
+<meta content="es" http-equiv="Content-Language" />
+<title>A&ntilde;adir serie</title>
+<meta content="proyecto hada" name="description" />
+<link href="css/design.css" rel="stylesheet" type="text/css">
+</head>
+
+<body style="margin: 0">
+
+<div class="info_add">
+	A&ntilde;adir serie<br>
+	<form action="addserie.html" name="addserie" method="post">
+	<table cellspacing="0" style="width: 100%">
+		<tr>
+			<td class="datos_add">Nombre de la serie</td>
+			<td class="datos_add">
+			<input name="nombre" class="datos_add" type="text"></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td class="datos_add">Género</td>
+			<td class="datos_add">
+				<select class="datos_add" name="genero">
+				<option value="Acción">Acción</option>
+				<option>Bélico</option>
+				<option value="Comedia">Comedia</option>
+				<option value="Drama">Drama</option>
+				<option value="Suspense">Suspense</option>
+				<option value="Terror">Terror</option>
+				</select></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td class="datos_add">Temporadas</td>
+			<td class="datos_add">
+			<input name="temporada" class="datos_add" type="text"></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td class="datos_add">A&ntilde;o</td>
+			<td class="datos_add">
+			<input name="year" class="datos_add" type="text">&nbsp;</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td class="datos_add">URL de la carátula</td>
+			<td class="datos_add">
+			<input name="caratula" class="datos_add" type="text"></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td class="datos_add">Sinopsis</td>
+			<td class="datos_add">
+			<textarea name="sinopsis" class="datos_add" style="width: 545px; height: 100px" cols="20" rows="1"></textarea></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td class="datos_add">&nbsp;</td>
+			<td class="botones_add">
+			<input name="enviar" type="submit" value="Enviar" class="botones_add"><input name="reset" type="reset" value="Vaciar formulario" class="botones_add"></td>
+			<td>&nbsp;</td>
+		</tr>
+	</table>
+	</form>
+</div>
+
+</body>
+
+</html>

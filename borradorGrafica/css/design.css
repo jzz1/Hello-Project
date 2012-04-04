@@ -1,0 +1,296 @@
+﻿/* Titulo página de registro */
+.info_reg {
+	margin: 18px 25px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align:center;
+	font-weight:bold;
+	color:#666;
+}
+/* Datos del formulario de registro */
+.datos_reg {
+	margin: 15px 13px;
+	font-family: Arial, Helvetica, sans-serif;
+	color:#00A;
+	background-color:#FFF;
+	font-weight:normal;
+	width:250px;
+}
+/* Check del formulario de registro */
+.check_reg {
+	margin: 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	color:#00A;
+	font-size:11px;
+	background-color:#FFF;
+	font-weight:normal;
+}
+/* Botones del formulario de registro */
+.botones_reg {
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight:bold;
+}
+/* Titulo página de añadir serie/producto */
+.info_add {
+	margin: 18px 25px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align:center;
+	font-weight:bold;
+	color:#666;
+}
+/* Datos del formulario de añadir serie/producto */
+.datos_add {
+	margin: 15px 13px;
+	font-family: Arial, Helvetica, sans-serif;
+	color:#00A;
+	background-color:#FFF;
+	font-weight:normal;
+	width: 250;
+}
+/* Botones del formulario de añadir serie/producto */
+.botones_add {
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight:bold;
+}
+/* Barra de la ficha de series */
+.barra_ver_series {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:small;
+	color:#FFF;
+	background-color:#222;
+	height: 40px;
+}
+/* Texto de la barra de la ficha de series */
+.texto_barra_ver_series {
+	height:40px;
+	width: 50%;
+	margin-top: 15px;
+	margin-left: 25px;
+	margin-bottom: 15px;
+	margin-right: 25px;
+	color:#FFF;
+}
+/* Titulo página de ver ficha de series */
+.info_ver_series {
+	margin: 18px 25px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align:left;
+	font-weight:bold;
+	color:#666;
+}
+/* Celda con la imagen de la ficha de series */
+.celdaimg_ver_series {
+	width: 250px;
+	height: 350px;
+}
+/* Imagen de la serie de la ficha de series */
+.caratula_ver_series {
+	width: 200px;
+	height: 350px;
+}
+/* Información de una serie de la ficha ver series */
+.desc_ver_series {
+	text-align: left;
+	color:#005;
+	font-family:Arial, Helvetica, sans-serif;
+	margin-left: 25px;
+	margin-right:25px;
+}
+/* Botones del formulario de añadir serie/producto */
+.botones_ver_series {
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight:bold;
+}
+/* Barra superior del master page */
+.barra_superior_master_page {
+	width: 100%;
+	background-color:#005;
+}
+/* Texto de la barra superior del master page */
+.barra_superior_master_page_content {
+	width: 95;
+	height: 35;
+	color:#FFF;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	text-align:center;
+}
+/* Logo */
+.logo_master_page {
+	height:100px;
+	width:800px;
+}
+/* Lista desplegable */
+.lista_master_page {
+	width:200px;
+	background-color:#005;
+	color:#FFF;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	margin-left:15px;
+}
+/* Indice de elementos del master page */
+.indice_master_page {
+	background-color:#005;
+	color:#FFF;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	text-align:center;
+}
+/* Celda de búsqueda del master page */
+.busqueda_master_page {
+	width:200px;
+	color:#FFF;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	background-color:#005;
+}
+/* Campos de texto del master page */
+.form_master_page {
+	color:#00A;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+/* Botones de formulario del master page */7
+.botones_master_page {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+}
+/* Celda de contenido de cada página */
+.iframe_master_page {
+	width:500px;
+	height:100%;
+	min-height:100%;
+	text-align:center;
+	border-color:#005;
+	border-left: 1px solid #000055;
+	border-right: 1px solid #000055;
+}
+/* Pie de página del master page */
+.pie_pagina_master_page {
+	background-color:#005;
+	color:#FFF;
+	text-align: center;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:x-small;
+	height:30px;
+}
+/* Lista de productos del master page */
+.lista_productos_master_page {
+	color:#00A;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	text-align:left;
+	margin-left:15px;
+	width:250px;
+}
+/* Lista de géneros de series del master page */
+.lista_genero_master_page {
+	background-color:#005;
+	color:#FFF;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	text-align:left;
+	margin-left:15px;
+	width:250px;
+}
+/* Última serie añadida del master page */
+.ultima_serie_master_page {
+	color:#00A;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	text-align:left;
+	margin-left:15px;
+	width:250px;
+}
+/* Panel de control de usuario del master page */
+.cpanel_master_page {
+	color:#00A;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	text-align:right;
+	margin-right:15px;
+	width:250px;
+}
+/* Ofertas destacadas del master page */
+.ofertas_master_page {
+	background-color:#005;
+	color:#FFF;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	text-align:right;
+	margin-right:15px;
+	width:250px;
+}
+/* Serie aleatoria del master page */
+.aleatoria_master_page {
+	color:#00A;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	text-align:right;
+	margin-right:15px;
+	width:250px;
+}
+/* Estadísticas de la web */
+.estadisticas_master_page {
+	background-color:#005;
+	color:#FFF;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	text-align:right;
+	margin-right:15px;
+	width:250px;
+}
+
+/* Texto de la barra de productos */
+.texto_productos {
+	height:40px;
+	width: 50%;
+	margin-top: 15px;
+	margin-left: 25px;
+	margin-bottom: 15px;
+	margin-right: 25px;
+}
+/* Titulo página de producto */
+.info_productos {
+	margin: 18px 25px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align:left;
+	font-weight:bold;
+	color:#666;
+}
+/* Celda con la imagen de productos */
+.celdaimg_productos {
+	width: 250px;
+	height: 350px;
+}
+/* Imagen de la serie de productos */
+.caratula_productos {
+	width: 200px;
+	height: 350px;
+}
+/* Información de productos */
+.desc_productos {
+	text-align: left;
+	color:#005;
+	font-family:Arial, Helvetica, sans-serif;
+	margin-left: 25px;
+	margin-right:25px;
+}
+/* Botones del formulario de productos */
+.botones_productos {
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight:bold;
+}
+/* Campos de texto de productos */
+.textform_productos {
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size:12px;
+	color:#00A;
+}
